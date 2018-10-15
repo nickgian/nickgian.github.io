@@ -1,0 +1,12 @@
+- name: "A Verified, Efficient Embedding of a Verifiable Assembly Language"
+  descr: "Conditionally accepted at POPL 2019"
+  github: "http://github.com/project-everest/vale"
+- name: "Micro-Policies: Formally Verified, Tag-Based Security Monitors"
+  link: "http://prosecco.gforge.inria.fr/personal/hritcu/publications/micro-policies.pdf"
+  descr: "Oakland S&P 2015"
+  github: "http://github.com/micro-policies"
+- name: "Taming release-acquire consistency"
+  link: "http://plv.mpi-sws.org/sra/paper.pdf"
+  descr: "POPL 2016"
+  website: "http://plv.mpi-sws.org/sra/"
+  

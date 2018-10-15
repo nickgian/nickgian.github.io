@@ -1,0 +1,26 @@
+<h1><span data-i18n="skills.my_skills">About me</span></h1>
+
+<div>
+    <p>I am a fourth year PhD student in Computer Science advised by
+    Professor <a href="http://www.cs.princeton.edu/~dpw">David
+    Walker</a>. My research interests revolve around programming
+    languages and verification, and currently we are working on
+    applying techniques from these fields (language design, static
+    analysis tools etc.) to help network operators keep calm.</p>
+
+    <p>
+    Previously I worked with Professor
+    <a href="http://www.cs.princeton.edu/~appel/"> Andrew Appel</a> on
+    the design of an operational semantics for concurrent languages
+    suitable for end-to-end verification. We demonstrated the power of
+    these semantics, by applying them to CompCert's C language in
+       order to prove:
+       <ul>
+	 <li> the soundness of VST's concurrent separation logic </li>
+	 <li> the correctness of CompCert with respect to a concurrent C program </li>
+	 <li> and the absence of data-races in the resulting assembly program </li>
+       </ul>
+    </p>
+
+    <p>You can find my CV <a href="cv.pdf"> here</a></p>
+</div>

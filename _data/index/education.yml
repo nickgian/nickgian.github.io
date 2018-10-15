@@ -1,0 +1,14 @@
+- name: Princeton University
+  link: https://www.cs.princeton.edu
+  date: 2015 - <i class="fa fa-clock-o" aria-hidden="true" title="Until Now"></i>
+  descr: "PhD in Computer Science"
+  
+- name: Master Parisien de Recherche en Informatique (MPRI M2), ENS Cachan
+  link: https://wikimpri.dptinfo.ens-cachan.fr/doku.php?id=cours:cours2
+  date: 2014 - 2015
+  descr: Master in Computer Science
+  
+- name: National Technical University of Athens
+  link: http://www.ece.ntua.gr
+  date: 2008-2014
+  descr: Bachelor/Master in Electrical and Computer Engineering
