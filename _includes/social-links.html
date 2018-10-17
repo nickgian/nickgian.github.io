@@ -18,7 +18,8 @@
       </li>
     {% endif %}
     {% if author.twitter %}<li><a href="http://twitter.com/{{ author.twitter }}" class="social-link-item" target="_blank"><i class="fa fa-fw fa-twitter"></i></a></li>{% endif %}
-    {% if author.facebook %}<li><a href="http://facebook.com/{{ author.facebook }}" class="social-link-item" target="_blank"><i class="fa fa-fw fa-facebook"></i></a></li>{% endif %}
+      {% if author.facebook %}<li><a href="http://facebook.com/{{ author.facebook }}" class="social-link-item" target="_blank"><i class="fa fa-fw fa-facebook"></i></a></li>{% endif %}
+      {% if author.google.scholar %}<li><a href="https://scholar.google.com/citations?user=ObLqNDAAAAAJ&hl=en" class="social-link-item" target="_blank"><i class="fa fa-fw fa-google"></i></a></li>{% endif %}
     {% if author.google.plus %}<li><a href="http://plus.google.com/+{{ author.google.plus }}" class="social-link-item" target="_blank"><i class="fa fa-fw fa-google-plus"></i> Google+</a></li>{% endif %}
     {% if author.linkedin %}<li><a href="http://linkedin.com/in/{{ author.linkedin }}" class="social-link-item" target="_blank"><i class="fa fa-fw fa-linkedin"></i></a></li>{% endif %}
     {% if author.skype %}<li><a href="skype:{{ author.skype }}" class="social-link-item" target="_blank"><i class="fa fa-fw fa-skype"></i></a></li>{% endif %}
