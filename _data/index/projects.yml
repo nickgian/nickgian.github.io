@@ -1,7 +1,7 @@
 - name: "Efficient verification of network fault tolerance via
   counterexample-guided refinement"
   descr: "To appear in CAV 2019"
-  link: "http://cs.princeton.edu/~ng8/cav2019.pdf"
+  link: "http://nickgian.github.io/cav2019.pdf"
   github: "http://github.com/princedpw/nv"
 - name: "Meta-F*: Proof automation with SMT, tactics, and metaprograms"
   descr: "ESOP 2019"
