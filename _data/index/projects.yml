@@ -1,5 +1,10 @@
+- name: "Efficient verification of network fault tolerance via
+  counterexample-guided refinement"
+  descr: "To appear in CAV 2019"
+  link: "http://cs.princeton.edu/~ng8/cav2019.pdf"
+  github: "http://github.com/princedpw/nv"
 - name: "Meta-F*: Proof automation with SMT, tactics, and metaprograms"
-  descr: "To appear in ESOP 2019"
+  descr: "ESOP 2019"
   link: "https://arxiv.org/abs/1803.06547"
   website: "https://www.fstar-lang.org"
 - name: "A Verified, Efficient Embedding of a Verifiable Assembly Language"
@@ -7,10 +12,9 @@
   github: "http://github.com/project-everest/vale"
 - name: "Micro-Policies: Formally Verified, Tag-Based Security Monitors"
   link: "http://prosecco.gforge.inria.fr/personal/hritcu/publications/micro-policies.pdf"
-  descr: "Oakland S&P 2015"
+  descr: "IEEE S&P 2015"
   github: "http://github.com/micro-policies"
 - name: "Taming release-acquire consistency"
   link: "http://plv.mpi-sws.org/sra/paper.pdf"
   descr: "POPL 2016"
   website: "http://plv.mpi-sws.org/sra/"
-  

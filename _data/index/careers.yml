@@ -1,6 +1,11 @@
 # careers section data
 # if you don't have language feature(language.yml is empty), ignore "i18n" items
 
+- name: Amazon.com
+  link: https://www.aws.amazon.com
+  date: May 2019 - September 2019
+  job: Applied Scientist Intern
+
 - name: Microsoft Research
   link: https://www.microsoft.com/en-us/research/group/research-software-engineering-rise/
   date: June 2017 - September 2017
