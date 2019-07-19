@@ -3,6 +3,8 @@
   descr: "To appear in CAV 2019"
   link: "http://nickgian.github.io/cav2019.pdf"
   github: "http://github.com/princedpw/nv"
+  full: "http://nickgian.github.io/cav2019-extended.pdf"
+  talk: "http://nickgian.github.io/cav2019-slides.pdf"
 - name: "Meta-F*: Proof automation with SMT, tactics, and metaprograms"
   descr: "ESOP 2019"
   link: "https://arxiv.org/abs/1803.06547"

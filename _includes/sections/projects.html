@@ -20,6 +20,12 @@
           {% if project.website %}
           <a href="{{ project.website }} "><i class="fa fa-fw fa-home"></i>Homepage</a>
           {% endif %}
+          {% if project.full %}
+          <a href="{{ project.full }} "><i class="fa fa-fw fa-file-pdf-o"></i>[Extended version]</a>
+          {% endif %}
+          {% if project.talk %}
+          <a href="{{ project.talk }} "><i class="fa fa-fw fa-file-pdf-o"></i>[Slides]</a>
+          {% endif %}
 	  </li>
             <!-- </div> -->
     </div>
