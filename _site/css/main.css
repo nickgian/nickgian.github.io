@@ -22,7 +22,8 @@
 /** Hide from visual and speaking browsers */
 /** Hide but maintain layout */
 /* Global Variables */
-@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:600,400,400italic|Roboto+Mono);
+/*@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:600,400,400italic|Roboto+Mono);*/
+@import url(//fonts.googleapis.com/css?family=Inconsolata:400,700);
 /*! normalize.css v3.0.2 | MIT License | git.io/normalize */
 /** 1. Set default font family to sans-serif. 2. Prevent iOS text size adjust after orientation change, without disabling user zoom. */
 html { font-family: sans-serif; /* 1 */ -ms-text-size-adjust: 100%; /* 2 */ -webkit-text-size-adjust: 100%; /* 2 */ }
