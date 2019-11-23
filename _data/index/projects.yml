@@ -19,6 +19,7 @@
 - name: "A Verified, Efficient Embedding of a Verifiable Assembly Language"
   authors: "Aymeric Fromherz, Nick Giannarakis, Chris Hawblitzel, Bryan Parno, Aseem Rastogi, Nikhil Swamy"
   descr: "POPL 2019"
+  link: "http://nickgian.github.io/popl19-vale.pdf"
   github: "http://github.com/project-everest/vale"
 - name: "Taming release-acquire consistency"
   authors: "Ori Lahav, Nick Giannarakis, Viktor Vafeiadis"
