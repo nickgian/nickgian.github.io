@@ -9,9 +9,9 @@
 html {
   line-height: $base-line-height;
   font-family: $font-family-base;
-  font-weight: normal;
+  font-weight: 500;
   color: $text-color;
-  -webkit-font-smoothing: antialiased;
+  -webkit-font-smoothing: subpixel-antialiased;
   text-rendering: optimizeLegibility;
   font-size: $font-size-base;
 }
