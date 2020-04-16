@@ -16,6 +16,9 @@
 	          <p style="margin: 0">{{ project.authors }}</p>
 	        {% endif %}
           <p style="margin: 0">{{ project.descr }}</p>
+          {% if project.artifact %}
+          <a href="{{ project.artifact }} "><i class="fa fa-fw fa-archive"></i>Artifact</a>
+          {% endif %}
           {% if project.github %}
           <a href="{{ project.github }} "><i class="fa fa-fw fa-github"></i>GitHub</a>
           {% endif %}
@@ -26,7 +29,7 @@
           <a href="{{ project.full }} "><i class="fa fa-fw fa-file-pdf-o"></i>[Extended version]</a>
           {% endif %}
           {% if project.talk %}
-          <a href="{{ project.talk }} "><i class="fa fa-fw fa-file-pdf-o"></i>[Slides]</a>
+          <a href="{{ project.talk }} "><i class="fa fa-fw fa-file-powerpoint"></i>[Slides]</a>
           {% endif %}
 	  </li>
             <!-- </div> -->
