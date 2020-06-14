@@ -44,21 +44,22 @@ $font-size-h6:               1rem !default;
 $base-line-height:            1.5;
 $base-space-unit:             1.5em;
 
-$hr-border-color:             rgba(0,0,0,.1) !default;
+$hr-border-color:             rgba(237,238,237,1) !default;
 $hr-border-width:             $border-width;
 
 //
 // Colors
 //
 
-$text-color:       #627aac !default;
+$text-color:       #464646 !default;
 // $background-color: #f5f5f5;
-$background-color: rgba(0,0,0,0.87);
+//$background-color: rgba(0,0,0,0.87);
+$background-color: rgba(237,238,237,1);
 
 $white:            #fff;
-$primary:          #ffd700;
+$primary:          #6061a7;
 // $secondary:        #8d7edc;
-$secondary:        #11dc92;
+$secondary:        #ad4455;
 $success:          #65e892;
 $danger:           #f83e4b;
 $warning:          #F5A623;
