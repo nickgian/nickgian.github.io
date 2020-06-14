@@ -1,6 +1,6 @@
 - name: "NV: An Intermediate Language for Verification of Network Control Planes"
   authors: "Nick Giannarakis, Devon Loehr, Ryan Beckett, David Walker"
-  descr: "To appear in PLDI 2020"
+  descr: "PLDI 2020"
   link: "https://nickgian.github.io/nv-pldi2020.pdf"
   github: "https://github.com/NetworkVerification/nv"
   artifact: "https://drive.google.com/open?id=1ESSUQmKsESRsA3DzhBCI1743tS_iXCjQ"

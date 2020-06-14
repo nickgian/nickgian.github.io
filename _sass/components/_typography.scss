@@ -37,7 +37,7 @@ a {
    color: $primary;
    &:hover,
    &:focus {
-     color: lighten($primary, 14%);
+     color: lighten($secondary, 14%);
      text-decoration: none;
    }
 }
