@@ -8,7 +8,7 @@
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="description" content="On (tenure-track)-track">
+  <meta name="description" content="">
   <meta name="keywords" content="">
   <meta name="author" content="Nick Giannarakis">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -17,7 +17,7 @@
   <!-- Twitter Tags -->
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="Nick Giannarakis">
-  <meta name="twitter:description" content="On (tenure-track)-track">
+  <meta name="twitter:description" content="">
   
     <meta property="twitter:image" content="http://localhost:4000/img/leonids-logo.png">
   
@@ -26,7 +26,7 @@
   <meta property="og:type" content="blog">
   <meta property="og:url" content="http://localhost:4000/">
   <meta property="og:title" content="Nick Giannarakis">
-  <meta property="og:description" content="On (tenure-track)-track">
+  <meta property="og:description" content="">
   
     <meta property="og:image" content="http://localhost:4000/img/leonids-logo.png">
   
@@ -55,8 +55,12 @@
 
 <div class="cover-card table-cell table-middle">
   
+  <a href="http://localhost:4000/">
+    <img src="http://localhost:4000/img/nick_jebus.jpeg" alt="" class="avatar">
+  </a>
+  
   <a href="http://localhost:4000/" class="author_name">Nick Giannarakis</a>
-  <span class="author_job">On (tenure-track)-track</span>
+  <span class="author_job"></span>
   <span class="author_bio mbm"></span>
   <!-- <nav class="nav"> -->
   <!--   <ul class="nav-list"> -->
@@ -101,7 +105,7 @@
       <script>gen_mail_to_link('nick.giannarakis@princeton.edu', '');</script>
       </li>
     
-    <li><a href="http://twitter.com/nickgilos" class="social-link-item" target="_blank"><i class="fa fa-fw fa-twitter"></i></a></li>
+    <li><a href="http://twitter.com/naig_kcin" class="social-link-item" target="_blank"><i class="fa fa-fw fa-twitter"></i></a></li>
       
       <li><a href="https://scholar.google.com/citations?user=ObLqNDAAAAAJ&hl=en" class="social-link-item" target="_blank"><i class="fa fa-fw fa-google"></i></a></li>
     
@@ -136,34 +140,50 @@
     <div class="col s12 m9">
       <div class="post-listing">
         <div class="row">
-    <div class="col l7">
+    <div class="col l9">
         <div class="row">
             <div class="col">
                 <h1><span data-i18n="skills.my_skills">About me</span></h1>
 
 <div>
-    <p>I am a fourth year PhD student in Computer Science advised by
-    Professor <a href="http://www.cs.princeton.edu/~dpw">David
-    Walker</a>. My research interests revolve around programming
-    languages and verification, and currently we are working on
-    applying techniques from these fields (language design, static
-    analysis tools etc.) to help network operators keep calm. You can
-    read more about some of the stuff we are
-    working on <a href="popl-src.pdf"> here.</a></p></p>
+
+   <p> Starting September 2020, I'll be joining UW-Madison as a postdoctoral
+   fellow supported by a
+   NSF <a href="https://cra.org/ccc/leadership-development/cifellows/">Computing
+   Innovation Fellowship</a>. My mentors are Professors <a href="https://pages.cs.wisc.edu/~loris/">Loris
+   D'Antoni</a> and <a href="http://pages.cs.wisc.edu/~akella/">Aditya Akella</a>.
+
+    <p>Before joining Madison I was a PhD student in the Computer Science
+    department of Princeton University, advised by
+    Professor <a href="http://www.cs.princeton.edu/~dpw">David Walker</a>. My
+    research interests revolve around programming languages, verification, and
+    their applications in networked systems. During my PhD, I developed a
+    language to model and automatically analyze a network's routing behavior
+    (see <a href="https://nickgian.github.io/nv-pldi2020.pdf">NV</a>). Check out
+    a
+    recent <a href="https://netverify.fun/models-of-distributed-protocols/">blog
+    post</a> about some of our research on network verification. On top of NV,
+    we built <a href="cav2019.pdf">Origami</a> a network compression tool to
+    scale fault tolerance analysis to very large networks.
+    </p>
+
+    <p>You can find more details in my <a href="thesis.pdf">dissertation</a>.</p>
 
     <p>
     Previously I worked with Professor
     <a href="http://www.cs.princeton.edu/~appel/"> Andrew Appel</a> on
     the design of an operational semantics for concurrent languages
-    suitable for end-to-end verification. We demonstrated the power of
-    these semantics, by applying them to CompCert's C language in
-       order to prove:
+    suitable for end-to-end verification. We used these semantics to prove:
        <ul>
 	 <li> the soundness of VST's concurrent separation logic </li>
 	 <li> the correctness of CompCert with respect to a concurrent C program </li>
 	 <li> and the absence of data-races in the resulting assembly program </li>
        </ul>
     </p>
+
+   <p> Before Princeton, I obtained a <a href="https://wikimpri.dptinfo.ens-cachan.fr/doku.php?id=start">Masters in Computer Science</a> 
+       as a student in ENS Cachan, and a diploma in Electrical and Computer Engineering from <a href="https://www.ece.ntua.gr">National Technical University of Athens</a>.
+	   I have worked as a research intern at Microsoft Research, Amazon AWS, MPI-SWS, and INRIA.</p>
 
     <p>You can find my CV <a href="cv.pdf"> here.</a></p>
 </div>
@@ -179,6 +199,54 @@
 
     <div class="row">
       <!-- <div class="col"> -->
+        <!-- <h2 style="margin: 0">NV: An Intermediate Language for Verification of Network Control Planes</h2> -->
+      <li>
+	
+	<p style="margin: 0"><a href="https://nickgian.github.io/nv-pldi2020.pdf">NV: An Intermediate Language for Verification of Network Control Planes</a></p>
+	
+	
+  	      
+	          <p style="margin: 0">Nick Giannarakis, Devon Loehr, Ryan Beckett, David Walker</p>
+	        
+          <p style="margin: 0">PLDI 2020</p>
+          
+          <a href="https://drive.google.com/open?id=1ESSUQmKsESRsA3DzhBCI1743tS_iXCjQ "><i class="fa fa-fw fa-archive"></i>Artifact</a>
+          
+          
+          <a href="https://github.com/NetworkVerification/nv "><i class="fa fa-fw fa-github"></i>GitHub</a>
+          
+          
+          
+          
+	  </li>
+            <!-- </div> -->
+    </div>
+    
+    <div class="row">
+      <!-- <div class="col"> -->
+        <!-- <h2 style="margin: 0">NV: An intermediate language for network verification</h2> -->
+      <li>
+	
+	<p style="margin: 0"><a href="https://www.cs.princeton.edu/~dpw/papers/nv-netpl2019.pdf">NV: An intermediate language for network verification</a></p>
+	
+	
+  	      
+	          <p style="margin: 0">Ryan Beckett, Nick Giannarakis, Devon Loehr, David Walker</p>
+	        
+          <p style="margin: 0">NetPL 2019</p>
+          
+          
+          <a href="https://github.com/NetworkVerification/nv "><i class="fa fa-fw fa-github"></i>GitHub</a>
+          
+          
+          
+          
+	  </li>
+            <!-- </div> -->
+    </div>
+    
+    <div class="row">
+      <!-- <div class="col"> -->
         <!-- <h2 style="margin: 0">Efficient verification of network fault tolerance via counterexample-guided refinement</h2> -->
       <li>
 	
@@ -186,9 +254,10 @@
 	
 	
   	      
-	          <p style="margin: 0">Nick Giannarakis, Ryan Beckett, Ratul Mahajan</p>
+	          <p style="margin: 0">Nick Giannarakis, Ryan Beckett, Ratul Mahajan, David Walker</p>
 	        
           <p style="margin: 0">CAV 2019</p>
+          
           
           <a href="http://github.com/princedpw/nv "><i class="fa fa-fw fa-github"></i>GitHub</a>
           
@@ -197,7 +266,7 @@
           <a href="http://nickgian.github.io/cav2019-full.pdf "><i class="fa fa-fw fa-file-pdf-o"></i>[Extended version]</a>
           
           
-          <a href="http://nickgian.github.io/cav2019-slides.pdf "><i class="fa fa-fw fa-file-pdf-o"></i>[Slides]</a>
+          <a href="http://nickgian.github.io/cav2019-slides.pdf "><i class="far fa-file-powerpoint"></i>[Slides]</a>
           
 	  </li>
             <!-- </div> -->
@@ -217,6 +286,7 @@
           <p style="margin: 0">ESOP 2019</p>
           
           
+          
           <a href="https://www.fstar-lang.org "><i class="fa fa-fw fa-home"></i>Homepage</a>
           
           
@@ -230,37 +300,16 @@
         <!-- <h2 style="margin: 0">A Verified, Efficient Embedding of a Verifiable Assembly Language</h2> -->
       <li>
 	
+	<p style="margin: 0"><a href="http://nickgian.github.io/popl19-vale.pdf">A Verified, Efficient Embedding of a Verifiable Assembly Language</a></p>
 	
-	<p style="margin: 0">A Verified, Efficient Embedding of a Verifiable Assembly Language</p>
 	
   	      
 	          <p style="margin: 0">Aymeric Fromherz, Nick Giannarakis, Chris Hawblitzel, Bryan Parno, Aseem Rastogi, Nikhil Swamy</p>
 	        
           <p style="margin: 0">POPL 2019</p>
           
+          
           <a href="http://github.com/project-everest/vale "><i class="fa fa-fw fa-github"></i>GitHub</a>
-          
-          
-          
-          
-	  </li>
-            <!-- </div> -->
-    </div>
-    
-    <div class="row">
-      <!-- <div class="col"> -->
-        <!-- <h2 style="margin: 0">Micro-Policies: Formally Verified, Tag-Based Security Monitors</h2> -->
-      <li>
-	
-	<p style="margin: 0"><a href="http://prosecco.gforge.inria.fr/personal/hritcu/publications/micro-policies.pdf">Micro-Policies: Formally Verified, Tag-Based Security Monitors</a></p>
-	
-	
-  	      
-	          <p style="margin: 0">Arthur Azevedo de Amorim, Maxime Dénès, Nick Giannarakis, Cătălin Hriţcu, Benjamin Pierce, Antal Spector-Zabusky, Andrew Tolmach </p>
-	        
-          <p style="margin: 0">IEEE S&P 2015</p>
-          
-          <a href="http://github.com/micro-policies "><i class="fa fa-fw fa-github"></i>GitHub</a>
           
           
           
@@ -283,7 +332,31 @@
           <p style="margin: 0">POPL 2016</p>
           
           
+          
           <a href="http://plv.mpi-sws.org/sra/ "><i class="fa fa-fw fa-home"></i>Homepage</a>
+          
+          
+          
+	  </li>
+            <!-- </div> -->
+    </div>
+    
+    <div class="row">
+      <!-- <div class="col"> -->
+        <!-- <h2 style="margin: 0">Micro-Policies: Formally Verified, Tag-Based Security Monitors</h2> -->
+      <li>
+	
+	<p style="margin: 0"><a href="http://prosecco.gforge.inria.fr/personal/hritcu/publications/micro-policies.pdf">Micro-Policies: Formally Verified, Tag-Based Security Monitors</a></p>
+	
+	
+  	      
+	          <p style="margin: 0">Arthur Azevedo de Amorim, Maxime Dénès, Nick Giannarakis, Cătălin Hriţcu, Benjamin Pierce, Antal Spector-Zabusky, Andrew Tolmach </p>
+	        
+          <p style="margin: 0">IEEE S&P 2015</p>
+          
+          
+          <a href="http://github.com/micro-policies "><i class="fa fa-fw fa-github"></i>GitHub</a>
+          
           
           
           
@@ -297,101 +370,10 @@
         </div>
     </div>
 
-    <div class="col l4 offset-l1">
-        <div class="row">
-            <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.6.0/Chart.min.js"></script> -->
-<!-- <h1><span data-i18n="skills.my_skills">Skills</span></h1> -->
-<!-- <canvas id="cs" height="500" width="500"></canvas>     -->
-<!-- <script> -->
-<!--     var ctx = document.getElementById("cs"); -->
-<!--     var data = { -->
-<!--     labels: "Motivation, GitHub, Java, HTML/CSS, Docker, Python".split(","), -->
-<!--     datasets: [{ -->
-<!--         label: "Ability", -->
-<!--         backgroundColor: "rgba(179,181,198,0.2)", -->
-<!--         borderColor: "#3385FF", -->
-<!--         pointBackgroundColor: "#3385FF", -->
-<!--         pointBorderColor: "#fff", -->
-<!--         pointHoverBackgroundColor: "#3385FF", -->
-<!--         pointHoverBorderColor: "#3385FF", -->
-<!--         data: [100, 65, 70, 60, 60, 55] -->
-<!--         }] -->
-<!--     }; -->
-<!--     var myRadarChart = new Chart(ctx, { -->
-<!--     type: 'radar', -->
-<!--     data: data, -->
-<!--     options: { -->
-<!--         scale: { -->
-<!--             responsive: true, -->
-<!--             ticks: {min: 0, max: 100}, -->
-<!--             lineArc: false, -->
-<!--             pointLabels: {fontSize: 14}, -->
-<!--         }, -->
-<!--         scaleFontSize: 0, -->
-<!--         legend: {display: false}, -->
-<!--     } -->
-<!--     }); -->
-<!-- </script> -->
-    
-        </div>
-        <div class="row">
-            <h1><span data-i18n="skills.my_skills">Internships</span></h1>
-
-<div class="archive">
-  <div class="timeline" id="timeline">
-    
-    <div class="archive-title"><div class="archive-year"><strong>May 2019 - September 2019</strong>
-	<p style="margin: 0">Applied Scientist Intern
-	@ <a href="https://www.aws.amazon.com">Amazon.com</a></div></div>
-    
-    <div class="archive-title"><div class="archive-year"><strong>June 2017 - September 2017</strong>
-	<p style="margin: 0">Research Intern
-	@ <a href="https://www.microsoft.com/en-us/research/group/research-software-engineering-rise/">Microsoft Research</a></div></div>
-    
-    <div class="archive-title"><div class="archive-year"><strong>March 2015 - August 2015</strong>
-	<p style="margin: 0">Research Intern
-	@ <a href="https://www.mpi-sws.org">MPI-SWS</a></div></div>
-    
-    <div class="archive-title"><div class="archive-year"><strong>April 2014 - September 2014</strong>
-	<p style="margin: 0">Research Intern
-	@ <a href="http://prosecco.gforge.inria.fr">INRIA</a></div></div>
-    
-  </div>
 </div>
-    
-        </div>
-        <div class="row">
-            <div class="navy-line"></div>
-<h1><span data-i18n="skills.my_skills">Education</span></h1>
 
-<div class="archive">
-  <div class="timeline" id="timeline">
-    
-    <div class="archive-title bio"><div class="archive-year"><strong>2015 - <i class="fa fa-clock-o" aria-hidden="true" title="Until Now"></i></strong>
-	<p style="margin: 0">PhD in Computer Science 
-	@ <a href="https://www.cs.princeton.edu">Princeton University
-                  </p></a></div></div>
-    
-    <div class="archive-title bio"><div class="archive-year"><strong>2014 - 2015</strong>
-	<p style="margin: 0">Master in Computer Science 
-	@ <a href="https://wikimpri.dptinfo.ens-cachan.fr/doku.php?id=cours:cours2">Master Parisien de Recherche en Informatique (MPRI M2), ENS Cachan
-                  </p></a></div></div>
-    
-    <div class="archive-title bio"><div class="archive-year"><strong>2008-2014</strong>
-	<p style="margin: 0">Bachelor/Master in Electrical and Computer Engineering 
-	@ <a href="http://www.ece.ntua.gr">National Technical University of Athens
-                  </p></a></div></div>
-    
-  </div>
-</div>
-    
-        </div>
-    </div>
-    
-
-</div>
         <footer>
-  &copy; 2019 Nick Giannarakis. Powered by <a href="http://jekyllrb.com/">Jekyll</a>, <a href="http://github.com/renyuanz/leonids/">leonids theme</a> made with <i class="fa fa-heart heart-icon"></i>
+  &copy; 2020 Nick Giannarakis. Powered by <a href="http://jekyllrb.com/">Jekyll</a>.
 </footer>
 
       </div>
